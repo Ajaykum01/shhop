@@ -13,9 +13,9 @@ import nest_asyncio
 # Load bot credentials
 with open("FILES/config.json", "r", encoding="utf-8") as f:
     DATA = json.load(f)
-    API_ID = DATA["36477371"]
-    API_HASH = DATA["3a76d9743d5ea0c5c2a6c0e935e7bd56"]
-    BOT_TOKEN = DATA["5408477690:AAHAbL3Q2B-wsRLBYjkqtZofU4rpVuLAiOA"]
+    API_ID = DATA["API_ID"]
+    API_HASH = DATA["API_HASH"]
+    BOT_TOKEN = DATA["BOT_TOKEN"]
 
 # Pyrogram plugins - Load from BOT only
 plugins = dict(root="BOT")
