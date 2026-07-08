@@ -381,8 +381,8 @@ async def buy_command(client: Client, message: Message):
 
     buttons = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Contact Owner", url="https://t.me/D_A_DYY"),
-            InlineKeyboardButton("Join Channel", url="https://t.me/WayneCHK")
+            InlineKeyboardButton("Contact Owner", url="https://t.me/+DWmTWs__G5ZmNWFl"),
+            InlineKeyboardButton("Join Channel", url="https://t.me/+DWmTWs__G5ZmNWFl")
         ],
         [
             InlineKeyboardButton("Home", callback_data="home"),
@@ -413,9 +413,9 @@ async def show_cmds(client, message):
     # Show the main menu directly with all 4 options including Buy
     home_text = """<pre>JOIN BEFORE USING. ✔️</pre>
 <b>~ Main :</b> <b><a href="https://t.me/WayneCHK">Join Now</a></b>
-<b>~ Chat Group :</b> <b><a href="https://t.me/WayneCHK">Join Now</a></b>
-<b>~ Scrapper :</b> <b><a href="https://t.me/WayneCHK">Join Now</a></b>
-<b>~ Note :</b> <code>Report Bugs To @D_A_DYY</code>
+<b>~ Chat Group :</b> <b><a href="https://t.me/+DWmTWs__G5ZmNWFl">Join Now</a></b>
+<b>~ Scrapper :</b> <b><a href="https://t.me/+DWmTWs__G5ZmNWFl">Join Now</a></b>
+<b>~ Note :</b> <code>Report Bugs To @masshackers</code>
 <b>~ Proxy :</b> <code>Live 💎</code>
 <pre>Choose Category :</pre>"""
 
@@ -453,9 +453,9 @@ async def handle_main_callbacks(client, callback_query):
         # Home text with 4 options: Gates, Tools, Admins, Buy
         home_text = """<pre>JOIN BEFORE USING. ✔️</pre>
 <b>~ Main :</b> <b><a href="https://t.me/WayneCHK">Join Now</a></b>
-<b>~ Chat Group :</b> <b><a href="https://t.me/WayneCHK">Join Now</a></b>
-<b>~ Scrapper :</b> <b><a href="https://t.me/WayneCHK">Join Now</a></b>
-<b>~ Note :</b> <code>Report Bugs To @D_A_DYY</code>
+<b>~ Chat Group :</b> <b><a href="https://t.me/+DWmTWs__G5ZmNWFl">Join Now</a></b>
+<b>~ Scrapper :</b> <b><a href="https://t.me/+DWmTWs__G5ZmNWFl">Join Now</a></b>
+<b>~ Note :</b> <code>Report Bugs To @masshackers</code>
 <b>~ Proxy :</b> <code>Live 💎</code>
 <pre>Choose Category :</pre>"""
 
@@ -543,8 +543,8 @@ async def handle_main_callbacks(client, callback_query):
 
         buttons = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("Contact Owner", url="https://t.me/D_A_DYY"),
-                InlineKeyboardButton("Join Channel", url="https://t.me/WayneCHK")
+                InlineKeyboardButton("Contact Owner", url="https://t.me/masshackers"),
+                InlineKeyboardButton("Join Channel", url="https://t.me/+DWmTWs__G5ZmNWFl")
             ],
             [
                 InlineKeyboardButton("Home", callback_data="home"),
